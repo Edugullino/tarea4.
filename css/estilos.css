@@ -1,0 +1,45 @@
+header {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #f2f2f2;
+     padding: 10px
+}
+     .iconoheader img {
+          
+          display: flex; 
+          justify-content: center; 
+          width: 50px;
+          height: auto }
+
+body {background-image: url(CIELO.jpg)} 
+     .pizza { color: brown }
+     .empanada {font-size: 6ch; } 
+     .turraca {text-align: right; }  
+     .tito {text-decoration: line-through;font-size: 6ch; } 
+     .lampone { height: 5cm;width: 5cm;} 
+     .preparacionez {background-color: aquamarine;} 
+     .flotante {position: fixed; 
+          bottom: 20px;
+          right: 20px;
+          z-index: 9999;
+     } 
+     .flotante img {
+          width: 40px;
+          height: auto 
+     }
+.logoempanada img {
+     width: 200px;
+     height: auto 
+}
+
+
+     footer  {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-items: center;
+          background-color: #f2f2f2;
+          padding: 10px
+     }
