@@ -66,3 +66,46 @@ header {
         @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
         .preparacionez {font-family: 'Monoton', cursive;}
+
+        @media  (min-width: 576px) and (max-width: 767px) {
+          .pizza {
+            background-color: green;
+            padding: 10px;
+          }
+        
+          .preparacionez {
+            display: none;
+          }
+        
+          .lampone {
+            width: 80%;
+            margin-left: 20%;
+          }
+     }
+
+
+
+
+
+     .markfrost {
+          display: none; 
+        }
+        
+        
+        @media  (max-width: 767px) {
+          .markfrost {
+            display: block; 
+            
+          }
+        }
+
+
+
+        .espoti {
+          display: block; 
+        }
+        
+        @media only screen and (min-width: 768px) {
+          .espoti {
+            display: none;  }
+        }
