@@ -1,9 +1,21 @@
 <html>
+    <head>
     <meta charset="Windows 1252">
     <meta name="description" content="Las mejores recetas de empanadas tradicionales argentinas">
     <meta name="keywords" content="empanadas, salteï¿½as, recetas argentinas, comida">
     <meta name="author" content="Eduardo Gullino">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empanadas argentinas</title>
+ 
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      alert('Hola buenos días');
+    });
+  </script>
+</head>
 <header> 
     <div class="logoempanada">
     <img src="imagenes/logopagina.png" alt=logodelapag>
@@ -23,6 +35,10 @@
 <br>
 <img class="markfrost" src="https://clarin.com/img//2022/05/11/Hk09WmV7X_1256x620__2.jpg#1652290664197">
 <body>
+    <button id="btnInclusivo" onclick="habilitarModoInclusivo()">Activar Modo Inclusivo</button>
+    <br>
+    <br>
+    <br>
     <h2>Empanadas Salteñas. Una tradición argentina</h2>
    
     <h4 class="pizza">Salta es una ciudad del noroeste de Argentina, capital de la provincia homónima. Se encuentra ubicada en el sector norte del Valle de Lerma. Su superficie aproximada es de 120 km. Es también la ciudad más poblada de la provincia, la segunda del NOA y la séptima del país. Se encuentra ubicada al este de la cordillera de los Andes, en el Valle de Lerma, a 1187 m s. n. m., muy cerca del nacimiento del río Mojotoro y cruzada por el río Arenales y constituye un importante polo cultural y turístico </h4>
@@ -178,6 +194,7 @@ Esta receta de empanadas es una de las más ricas. Hoy compartiremos juntos todos
 <footer>
 2023. todos los derchos reservados. Cocineros Argelinos
 
+<button onclick="mostrarDatosCreador()">Mostrar Datos del Creador</button>
 <div class="flotante">
     <a href="https://api.whatsapp.com/send/?phone=541166777823&text=%C2%A1Hola%21+Tengo+una+consulta+sobre+mi+SUBE&type=phone_number&app_absent=0" target="_blank">
         <img src="imagenes/logos sociales/wp.png" alt="">
